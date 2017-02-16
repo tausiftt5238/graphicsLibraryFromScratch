@@ -4,16 +4,6 @@
 #define RIGHT 2
 #define LEFT 1
 
-int acceptanceStatus;
-
-int getAcceptanceStatus(){
-    return acceptanceStatus;
-}
-
-void setAcceptanceStatus(int a){
-    acceptanceStatus = a;
-}
-
 int makeCode(int x,int y){
     int ret = 0;
     if(x > getxmax()) ret += RIGHT;

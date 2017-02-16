@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1486288309 source:/home/tausiftt5238/openGL/graphicsLab/display.cpp
+1486893981 source:/home/tausiftt5238/openGL/graphicsLab/display.cpp
 	"mygraphics.hpp"
 
 1485790917 /home/tausiftt5238/openGL/graphicsLab/mygraphics.h
@@ -11,17 +11,19 @@
 1485793368 source:/home/tausiftt5238/openGL/graphicsLab/draw_line_zone_zero.cpp
 	"mygraphics.hpp"
 
-1486267441 source:/home/tausiftt5238/openGL/graphicsLab/drawPixel.cpp
+1486889939 source:/home/tausiftt5238/openGL/graphicsLab/drawPixel.cpp
 	"mygraphics.hpp"
 
 1485792348 source:/home/tausiftt5238/openGL/graphicsLab/zone.cpp
 	"mygraphics.hpp"
 
-1486285460 /home/tausiftt5238/openGL/graphicsLab/mygraphics.hpp
+1486890777 /home/tausiftt5238/openGL/graphicsLab/mygraphics.hpp
 	<GL/glut.h>
 	<stdio.h>
 	<math.h>
 	<time.h>
+	<stdlib.h>
+	<unistd.h>
 
 1486285759 source:/home/tausiftt5238/openGL/graphicsLab/main.cpp
 	"mygraphics.hpp"
@@ -31,9 +33,14 @@
 1486268279 source:/home/tausiftt5238/openGL/graphicsLab/draw_line_eight_seg.cpp
 	"mygraphics.hpp"
 
-1486268469 source:/home/tausiftt5238/openGL/graphicsLab/lineClip.cpp
+1486888147 source:/home/tausiftt5238/openGL/graphicsLab/lineClip.cpp
 	"mygraphics.hpp"
 
 1486287998 source:/home/tausiftt5238/openGL/graphicsLab/line_clip_cyrus.cpp
 	"mygraphics.hpp"
+
+1486891558 source:/home/tausiftt5238/openGL/graphicsLab/drawCircle.cpp
+	"mygraphics.hpp"
+
+1486888160 source:/home/tausiftt5238/openGL/graphicsLab/color.cpp
 

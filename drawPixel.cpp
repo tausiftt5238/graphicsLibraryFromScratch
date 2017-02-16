@@ -5,11 +5,26 @@ void drawPixel(int x, int y ){
     glBegin(GL_POINTS);
         switch(getAcceptanceStatus()){
             case 0:
+            glColor3f(0.5,0.5,0.5);
+            break;
+            case 1:
+            glColor3f(0.0,0.0,1.0);
+            case 2:
             glColor3f(0.0,1.0,0.0);
             break;
-            case 2:
+            case 3:
+            glColor3f(0.0,1.0,1.0);
+            break;
+            case 4:
             glColor3f(1.0,0.0,0.0);
             break;
+            case 5:
+            glColor3f(1.0,0.0,1.0);
+            case 6:
+            glColor3f(1.0,1.0,0.0);
+            break;
+            case 7:
+            glColor3f(1.0,1.0,1.0);
             default:
             glColor3f(0.0,0.0,1.0);
         }

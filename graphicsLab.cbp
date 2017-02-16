@@ -32,7 +32,9 @@
 			<Add option="-Wall" />
 		</Compiler>
 		<Unit filename="boundary.cpp" />
+		<Unit filename="color.cpp" />
 		<Unit filename="display.cpp" />
+		<Unit filename="drawCircle.cpp" />
 		<Unit filename="drawPixel.cpp" />
 		<Unit filename="draw_line_eight_seg.cpp" />
 		<Unit filename="draw_line_zone_zero.cpp" />
