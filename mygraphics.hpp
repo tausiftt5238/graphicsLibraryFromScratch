@@ -24,3 +24,4 @@ void setAcceptanceStatus(int a);
 void line_clip_cyrus(int x0, int y0, int x1, int y1);
 void midPointCircle(int x,int y,int radius, int color);
 void circlePoints(int x, int y ,int offsetX, int offsetY, int color);
+void drawChaka(int x, int y);

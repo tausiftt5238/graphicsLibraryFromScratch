@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1486893981 source:/home/tausiftt5238/openGL/graphicsLab/display.cpp
+1487499117 source:/home/tausiftt5238/openGL/graphicsLab/display.cpp
 	"mygraphics.hpp"
 
 1485790917 /home/tausiftt5238/openGL/graphicsLab/mygraphics.h
@@ -11,13 +11,13 @@
 1485793368 source:/home/tausiftt5238/openGL/graphicsLab/draw_line_zone_zero.cpp
 	"mygraphics.hpp"
 
-1486889939 source:/home/tausiftt5238/openGL/graphicsLab/drawPixel.cpp
+1487495366 source:/home/tausiftt5238/openGL/graphicsLab/drawPixel.cpp
 	"mygraphics.hpp"
 
 1485792348 source:/home/tausiftt5238/openGL/graphicsLab/zone.cpp
 	"mygraphics.hpp"
 
-1486890777 /home/tausiftt5238/openGL/graphicsLab/mygraphics.hpp
+1487498229 /home/tausiftt5238/openGL/graphicsLab/mygraphics.hpp
 	<GL/glut.h>
 	<stdio.h>
 	<math.h>
@@ -30,7 +30,7 @@
 
 1485791844 source:/home/tausiftt5238/openGL/graphicsLab/boundary.cpp
 
-1486268279 source:/home/tausiftt5238/openGL/graphicsLab/draw_line_eight_seg.cpp
+1487495286 source:/home/tausiftt5238/openGL/graphicsLab/draw_line_eight_seg.cpp
 	"mygraphics.hpp"
 
 1486888147 source:/home/tausiftt5238/openGL/graphicsLab/lineClip.cpp
@@ -39,8 +39,11 @@
 1486287998 source:/home/tausiftt5238/openGL/graphicsLab/line_clip_cyrus.cpp
 	"mygraphics.hpp"
 
-1486891558 source:/home/tausiftt5238/openGL/graphicsLab/drawCircle.cpp
+1487492456 source:/home/tausiftt5238/openGL/graphicsLab/drawCircle.cpp
 	"mygraphics.hpp"
 
 1486888160 source:/home/tausiftt5238/openGL/graphicsLab/color.cpp
+
+1487499107 source:/home/tausiftt5238/openGL/graphicsLab/drawChaka.cpp
+	"mygraphics.hpp"
 

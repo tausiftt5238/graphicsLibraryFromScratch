@@ -38,6 +38,7 @@ void circlePoints(int x, int y ,int offsetX, int offsetY, int color){
             break;
             case 1:
             glColor3f(0.0,0.0,1.0);
+            break;
             case 2:
             glColor3f(0.0,1.0,0.0);
             break;
@@ -49,11 +50,13 @@ void circlePoints(int x, int y ,int offsetX, int offsetY, int color){
             break;
             case 5:
             glColor3f(1.0,0.0,1.0);
+            break;
             case 6:
             glColor3f(1.0,1.0,0.0);
             break;
             case 7:
             glColor3f(1.0,1.0,1.0);
+            break;
             default:
             glColor3f(0.0,0.0,0.0);
         }

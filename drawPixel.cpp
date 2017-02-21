@@ -26,7 +26,7 @@ void drawPixel(int x, int y ){
             case 7:
             glColor3f(1.0,1.0,1.0);
             default:
-            glColor3f(0.0,0.0,1.0);
+            glColor3f(0.0,0.0,0.0);
         }
         switch(getZone()){
 
