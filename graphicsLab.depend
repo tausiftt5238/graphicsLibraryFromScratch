@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1487499117 source:/home/tausiftt5238/openGL/graphicsLab/display.cpp
+1491997496 source:/home/tausiftt5238/openGL/graphicsLab/display.cpp
 	"mygraphics.hpp"
 
 1485790917 /home/tausiftt5238/openGL/graphicsLab/mygraphics.h
@@ -8,16 +8,16 @@
 	<math.h>
 	<time.h>
 
-1485793368 source:/home/tausiftt5238/openGL/graphicsLab/draw_line_zone_zero.cpp
+1487667631 source:/home/tausiftt5238/openGL/graphicsLab/draw_line_zone_zero.cpp
 	"mygraphics.hpp"
 
-1487495366 source:/home/tausiftt5238/openGL/graphicsLab/drawPixel.cpp
+1487667631 source:/home/tausiftt5238/openGL/graphicsLab/drawPixel.cpp
 	"mygraphics.hpp"
 
-1485792348 source:/home/tausiftt5238/openGL/graphicsLab/zone.cpp
+1487667631 source:/home/tausiftt5238/openGL/graphicsLab/zone.cpp
 	"mygraphics.hpp"
 
-1487498229 /home/tausiftt5238/openGL/graphicsLab/mygraphics.hpp
+1491748605 /home/tausiftt5238/openGL/graphicsLab/mygraphics.hpp
 	<GL/glut.h>
 	<stdio.h>
 	<math.h>
@@ -25,25 +25,88 @@
 	<stdlib.h>
 	<unistd.h>
 
-1486285759 source:/home/tausiftt5238/openGL/graphicsLab/main.cpp
+1491997476 source:/home/tausiftt5238/openGL/graphicsLab/main.cpp
 	"mygraphics.hpp"
 
-1485791844 source:/home/tausiftt5238/openGL/graphicsLab/boundary.cpp
+1487667631 source:/home/tausiftt5238/openGL/graphicsLab/boundary.cpp
 
-1487495286 source:/home/tausiftt5238/openGL/graphicsLab/draw_line_eight_seg.cpp
+1491728567 source:/home/tausiftt5238/openGL/graphicsLab/draw_line_eight_seg.cpp
 	"mygraphics.hpp"
 
-1486888147 source:/home/tausiftt5238/openGL/graphicsLab/lineClip.cpp
+1487667631 source:/home/tausiftt5238/openGL/graphicsLab/lineClip.cpp
 	"mygraphics.hpp"
 
-1486287998 source:/home/tausiftt5238/openGL/graphicsLab/line_clip_cyrus.cpp
+1487667631 source:/home/tausiftt5238/openGL/graphicsLab/line_clip_cyrus.cpp
 	"mygraphics.hpp"
 
-1487492456 source:/home/tausiftt5238/openGL/graphicsLab/drawCircle.cpp
+1491122503 source:/home/tausiftt5238/openGL/graphicsLab/drawCircle.cpp
 	"mygraphics.hpp"
 
-1486888160 source:/home/tausiftt5238/openGL/graphicsLab/color.cpp
+1487667631 source:/home/tausiftt5238/openGL/graphicsLab/color.cpp
 
-1487499107 source:/home/tausiftt5238/openGL/graphicsLab/drawChaka.cpp
+1487667631 source:/home/tausiftt5238/openGL/graphicsLab/drawChaka.cpp
+	"mygraphics.hpp"
+
+1487667631 source:/home/abida/Tausif/graphicsLibraryFromScratch-master/boundary.cpp
+
+1487667631 source:/home/abida/Tausif/graphicsLibraryFromScratch-master/color.cpp
+
+1487667631 source:/home/abida/Tausif/graphicsLibraryFromScratch-master/draw_line_eight_seg.cpp
+	"mygraphics.hpp"
+
+1488703812 /home/abida/Tausif/graphicsLibraryFromScratch-master/mygraphics.hpp
+	<GL/glut.h>
+	<stdio.h>
+	<math.h>
+	<time.h>
+	<stdlib.h>
+	<unistd.h>
+
+1487667631 source:/home/abida/Tausif/graphicsLibraryFromScratch-master/draw_line_zone_zero.cpp
+	"mygraphics.hpp"
+
+1487667631 source:/home/abida/Tausif/graphicsLibraryFromScratch-master/drawChaka.cpp
+	"mygraphics.hpp"
+
+1487667631 source:/home/abida/Tausif/graphicsLibraryFromScratch-master/drawCircle.cpp
+	"mygraphics.hpp"
+
+1487667631 source:/home/abida/Tausif/graphicsLibraryFromScratch-master/drawPixel.cpp
+	"mygraphics.hpp"
+
+1487667631 source:/home/abida/Tausif/graphicsLibraryFromScratch-master/line_clip_cyrus.cpp
+	"mygraphics.hpp"
+
+1487667631 source:/home/abida/Tausif/graphicsLibraryFromScratch-master/lineClip.cpp
+	"mygraphics.hpp"
+
+1487667631 source:/home/abida/Tausif/graphicsLibraryFromScratch-master/main.cpp
+	"mygraphics.hpp"
+
+1487667631 source:/home/abida/Tausif/graphicsLibraryFromScratch-master/zone.cpp
+	"mygraphics.hpp"
+
+1488703851 source:/home/abida/Tausif/graphicsLibraryFromScratch-master/drawEllipse.cpp
+	"mygraphics.hpp"
+
+1488711307 source:/home/abida/Tausif/graphicsLibraryFromScratch-master/display.cpp
+	"mygraphics.hpp"
+
+1488703851 source:/home/tausiftt5238/openGL/graphicsLab/drawEllipse.cpp
+	"mygraphics.hpp"
+
+1489833304 source:/home/tausiftt5238/openGL/graphicsLab/ballBounce.cpp
+	"mygraphics.hpp"
+
+1491125046 source:/home/tausiftt5238/openGL/graphicsLab/projectionPlane.cpp
+	"mygraphics.hpp"
+
+1491128082 source:/home/tausiftt5238/openGL/graphicsLab/rotation.cpp
+	"mygraphics.hpp"
+
+1491727273 source:/home/tausiftt5238/openGL/graphicsLab/boxrotation.cpp
+	"mygraphics.hpp"
+
+1491732422 source:/home/tausiftt5238/openGL/graphicsLab/vectorOperation.cpp
 	"mygraphics.hpp"
 

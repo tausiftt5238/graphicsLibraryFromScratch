@@ -25,8 +25,33 @@ void midPointCircle(int x0, int y0,int radius, int color){
         //setZone(7);
         //drawPixel(x,y);
         circlePoints(x,y,x0,y0,color);
+        glFlush();
     }
 }
+
+void myDrawCircleAnti(int a,int b,int R) {
+	int x=R,y=0;
+	int dN, dNW,temp;
+	int dinit = -4*R + 5;
+	int i;
+	circlePoints(x,y,a,b,5);
+	while(x>y) {
+		dN = 4*(2*y + 3);
+		dNW = 4*(2*y - 2*x + 5);
+		if(dinit>=0) {
+			//going diagonal
+			dinit += dNW;
+			x--; y++;
+		}
+		else {
+			dinit += dN;
+			y++;
+		}
+		circlePoints(x,y,a,b,5);
+        glFlush();
+	}
+}
+
 
 
 void circlePoints(int x, int y ,int offsetX, int offsetY, int color){
@@ -68,6 +93,6 @@ void circlePoints(int x, int y ,int offsetX, int offsetY, int color){
         glVertex2i(-y+offsetX,-x+offsetY);
         glVertex2i(y+offsetX,-x+offsetY);
         glVertex2i(x+offsetX,-y+offsetY);
-        glFlush();
+
 	glEnd();
 }

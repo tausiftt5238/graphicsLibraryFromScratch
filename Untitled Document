@@ -1,0 +1,27 @@
+need to fine sym.point of zone 2 to zone 0
+
+rule : 
+point (x_zn2, y_zn2)
+
+	x_zn0 = - y_zn2
+
+	y_zn0 = x_zn2
+
+
+A real point of zone 2 :  (-2 , 10)
+
+sym. point at zone 0
+
+(-10, -2)
+
+again back to zone 2 using same formula
+
+(2 , -10)  //but actual point was (-2 , 10)
+
+
+//hoilo na
+
+
+
+
+ 

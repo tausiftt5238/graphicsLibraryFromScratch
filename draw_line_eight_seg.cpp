@@ -1,5 +1,9 @@
 #include "mygraphics.hpp"
 
+void draw_line_vertex(vertex P, vertex Q){
+    draw_line_8_seg(P.x,P.y, Q.x, Q.y);
+}
+
 void draw_line_8_seg(int x0, int y0, int x1, int y1){
     switch(zone(x0,y0,x1,y1)){
         case 0:

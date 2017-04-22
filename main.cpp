@@ -2,13 +2,14 @@
 
 
 void Init(void ){
-    glClearColor(0,0,0,0.0);
+    glClearColor(0,1,0,0.0);
     glMatrixMode (GL_PROJECTION);
     glLoadIdentity();
 	//to make it 2D and putting the origin in the middle of the screen
-	glOrtho (-320,319,-240,239,-1,1);
+	//glOrtho (-320,319,-240,239,-1,1);
 
     //draw lines to create axis
+
 	glBegin(GL_LINES);
 
 		glColor3f(1.0,1.0,1.0);
@@ -30,6 +31,7 @@ void Init(void ){
 		glVertex2i(getxmin(), getymax());
 
 	glEnd();
+
 }
 void Reshape(int width, int height)
 {
@@ -41,7 +43,6 @@ void Reshape(int width, int height)
 }
 
 int main(int argc, char *argv[]){
-    srand(time(0));
     glutInit(&argc, argv);
 	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB );
 	//assigning window size
